@@ -1,0 +1,5 @@
+1. collapse - https://abhaysinghthakur.github.io/assignment5/collapse/collapse.html
+
+2. modal - https://abhaysinghthakur.github.io/assignment5/modal/modal.html
+
+3. nav bar - https://abhaysinghthakur.github.io/assignment5/navBar/nav.html

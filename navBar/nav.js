@@ -1,7 +1,7 @@
 $(document).ready(() =>{
 
 	$(".menuIcon").click(()=>{
-		$(".menuContainer").toggle();
+		$(".menuContainer").toggle("5000");
 	})
 
 })

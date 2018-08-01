@@ -5,7 +5,7 @@ $(document).ready(() =>{
 	})
 
 	$(".closeButton").click(() =>{
-		$(".modal").hide();
+		$(".modal").hide("5000");
 	})
 
 	$("#exitButton").click(() =>{
@@ -14,7 +14,7 @@ $(document).ready(() =>{
 
 	$(".modal").click(function(e){
 		if(e.target.className == "modal"){
-			$(".modal").hide();
+			$(".modal").hide0("5000");
 		}
 	})
 })
