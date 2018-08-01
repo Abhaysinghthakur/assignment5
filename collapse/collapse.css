@@ -1,0 +1,39 @@
+:root{
+	font-size: 16px;
+	font-family: "Istok Web", sans-serif;
+}
+
+.container{
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	margin: 3vw;
+}
+
+.navflex{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	background: #563d7c;
+}
+
+.flexItem{
+	margin: 2vw;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	border: 2px solid grey;
+}
+
+.item{
+	border-bottom: 1px solid grey; 
+	display: none;
+}
+
+.collapseButton{
+	color:blue;
+	border:0;
+	padding: 0;
+	margin:1vw;
+	cursor:pointer;
+}

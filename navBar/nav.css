@@ -1,0 +1,130 @@
+:root{
+	font-size: 16px;
+	font-family: "Istok Web", sans-serif;
+}
+
+html, body{
+	margin: 0;
+	padding: 0;
+}
+
+.container{
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	margin: 0vw 3vw 0vw 3vw;
+	background-color: #563d7c;
+}
+
+.container2{
+	display:none;
+	border: 2px solid grey;
+	background-color: #563d7c;
+}
+
+.flexItem{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	border: 2px solid grey;
+	background-color: #563d7c;
+}
+
+.navItem{
+	background-color: none;
+	color:white;
+	border:0;
+	margin: 0;
+	padding: 1vw;
+	font-size: 1.5rem;
+	border-right: 1px solid grey;
+	cursor: pointer;
+}
+
+.item{
+	color:white;
+	border:0;
+	margin: 0;
+	padding: 1vw;
+	font-size: 1.5rem;
+	border-right: 1px solid grey;
+	cursor: pointer;
+}
+
+.menuIcon{
+	float: right;
+	color: white;
+	border:0;
+	margin: 0;
+	padding: 1vw;
+	font-size: 1.5rem;
+	cursor: pointer;
+	display: none;
+}
+
+.menuContainer{
+	display: none;
+}
+
+.menu{
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+}
+
+.menuItem{
+	color:white;
+	border:0;
+	margin: 0;
+	padding: 1vw;
+	font-size: 1.5rem;
+	border-bottom: 3px solid grey;
+	cursor: pointer;
+}
+
+.searchMenuItem{
+	padding: 1vw;
+}
+
+.searchItem{
+	padding: 1vw;
+}
+
+@media screen and (max-width: 650px){
+	.container{
+		margin: 0vw 1vw 0vw 1vw;
+	}
+
+	.item{
+		display: none;
+	}
+
+	.searchItem{
+		display: none;
+	}
+
+	.menuIcon{
+		display: inline;
+	}
+
+	.flexItem{
+		display: none;
+	}
+
+	.container2{
+		display: inline;
+	}
+
+}
+
+@media screen and (max-width: 550px){
+	.container{
+		margin: 0;
+	}
+}
+
+@media screen and (min-width: 650px){
+	.menu{
+		display: none;
+	}
+}
